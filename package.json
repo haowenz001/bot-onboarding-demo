@@ -2,5 +2,10 @@
   "name": "bot-onboarding-demo",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "test": "node -e \"console.log(1)\"" }
+  "scripts": {
+    "build": "node -e \"console.log(\\\"build ok\\\")\"",
+    "lint": "node -e \"console.log(\\\"lint ok\\\")\"",
+    "test": "node -e \"console.log(\\\"test ok\\\")\"",
+    "test:e2e": "node -e \"console.log(\\\"e2e ok\\\")\""
+  }
 }
